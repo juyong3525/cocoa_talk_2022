@@ -73,3 +73,30 @@ header tag = 말 그대로 header. div 대체 태그
 main tag = 내용을 의미하는 태그. div 대체 태그
 footer tag = 꼬릿말을 의미하는 태그. div 대체 태그
 span tag= 짧은 텍스트를 의미하는 태그
+
+# 2.11 Recap
+
+-form 은 데이터를 수집하는 컨트롤러
+-input의 (고유 식별자)id와 label의 for은 같아야 한다.
+-MDN에 사용하는 법 그때그때 잘 찾아보기.
+-none-semantic : html에서 의미 없는 태그 but 기능은 있음. (div)
+-semantic : 문서를 보기만해도 그 의미를 짐작할 수 있는 것.
+(header,main,footer 등)
+-> semantic tag를 div나 span으로 바꿔도 문제없지만, 코드 자체를 이해하는데 어려움이 생김.
+-p : 문단 텍스트(paragraph)에 적합
+-span : 짧은 텍스트에 적합
+-div : 한 줄을 띄어준다. box 개념.
+결론 :
+코드를 이해하기 쉽게하기 위해서 되도록 semantic 태그를 쓰자
+
+- atrribute 값은 항상 "" 큰 따옴표 안에 작성한다.
+- 어떤 태그는 id라는 arrtribute를 가질 수 있다.ex) image, paragraph. header, link...
+- 반대로 src(source)라는 attribute는 모든 태그가 가질 수 있지 않다.
+- 코드 자체에 의미가 부여된 semantic 태그를 잊지 말자.ex) header, navigation, footer...
+- semantic 태그로 코드를 작성 하는 것은 매우 중요하다. 작성된 코드들이 훨씬 더 보기 좋고, 좋은
+  프로그래머가 되기 위해서는 필수 사항이다.
+- header, main, footer, navigation, hgroup 등 <>속 태그들은 전부 container이다. 전부 div 태그로 대체 할 수 있다.
+- div 태그는 가장 통용적인 container이다. 대체가 가능하지만, 코드만 보고 어떤 의미인지 파악하기 위해서 semantic 태그를 쓰는 것이다.
+- 모든 태그를 암기 할 필요는 없다. 필요할 때마다 문서를 찾아 적용하면 된다.
+
+html element reference MDN 검색
