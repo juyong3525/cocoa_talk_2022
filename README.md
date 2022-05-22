@@ -43,3 +43,11 @@ og, fb, twitter:~~ 네이버 카카오톡, ~~ 페이스북, ~~ 트위터에서 �
 
 html tag mdn 참고
 https://developer.mozilla.org/ko/docs/Web/HTML/Element
+
+# 2.8 Form Tags
+
+요약
+form 만들기
+input tag = 입력창 만드는 태그
+form tag 설명 (기억 못해도 찾아서 사용할 수 있으면 가능)
+HTML 문법 형식만 알아두기
