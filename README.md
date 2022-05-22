@@ -29,3 +29,12 @@ href = http reference라고 함 (anchor 태그에만 추가 가능)
 target = 기본값은 self이고, "\_blank"(언더바 blank) 입력 시 새 탭에서 링크가 열림
 img = 다른 태그와 다르게 /로 닫는 태그가 없다 (자체 닫기 태그이기 때문)
 src = img 안에 사진을 집어넣음 (img에서 작동)
+
+# 2.5, 2.6 Head
+
+meta tag = 부가적인 요소 라는 뜻 (content, name attribute를 가짐)
+charset = 한글 등 문자 표시하게 해줌
+language = 사이트에 사용되는 언어 표기 (검색엔진에게 알려줌)
+다른 수많은 meta tag들이 있음
+HEAD 태그는 보이지 않는 사이트 설정들을 바꿔준다!! (중요)
+og, fb, twitter:~~ 네이버 카카오톡, ~~ 페이스북, ~~ 트위터에서 사용하는 정보들
