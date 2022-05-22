@@ -38,3 +38,8 @@ language = 사이트에 사용되는 언어 표기 (검색엔진에게 알려줌
 다른 수많은 meta tag들이 있음
 HEAD 태그는 보이지 않는 사이트 설정들을 바꿔준다!! (중요)
 og, fb, twitter:~~ 네이버 카카오톡, ~~ 페이스북, ~~ 트위터에서 사용하는 정보들
+
+# 2.7 More Tags
+
+html tag mdn 참고
+https://developer.mozilla.org/ko/docs/Web/HTML/Element
