@@ -51,3 +51,16 @@ form 만들기
 input tag = 입력창 만드는 태그
 form tag 설명 (기억 못해도 찾아서 사용할 수 있으면 가능)
 HTML 문법 형식만 알아두기
+
+# 2.9 More Tags and IDs
+
+lable은 input과 함께 작동한다. (label이 input을 activate)
+lable 태그에 for=""
+input 태그에 id="" 에 완전 똑같은 벨류가 들어가야 함.
+
+(커서 동시 선택하고 싶을 때는, option 키)
+
+\*핵심은 Id
+id는 body 안에 어떤 태그에든 넣을 수 있는 attribute임
+element당 하나의 id 만을 가질 수 있다 (고유식별자임, 중복된 id를 사용하면 doesn't work!)
+CSS가 태그를 지정하여 꾸미기 위해서 ID가 필요
