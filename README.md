@@ -64,3 +64,12 @@ input 태그에 id="" 에 완전 똑같은 벨류가 들어가야 함.
 id는 body 안에 어떤 태그에든 넣을 수 있는 attribute임
 element당 하나의 id 만을 가질 수 있다 (고유식별자임, 중복된 id를 사용하면 doesn't work!)
 CSS가 태그를 지정하여 꾸미기 위해서 ID가 필요
+
+# 2.10 Semantic HTML
+
+Semantic HTML(document와 code를 명확하게 할 수 있도록 짜는게 좋다)
+div tag = division (박스라고 생각해도 됨) 아무런 값이 없는 단순한 box
+header tag = 말 그대로 header. div 대체 태그
+main tag = 내용을 의미하는 태그. div 대체 태그
+footer tag = 꼬릿말을 의미하는 태그. div 대체 태그
+span tag= 짧은 텍스트를 의미하는 태그
