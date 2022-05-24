@@ -191,3 +191,12 @@ user agent stylesheet : 브라우저가 기본적으로 준 style 속성
 1. margin : block의 border의 바깥에 있는 공간
 2. padding : block의 border 안쪽에 있는 공간
 3. border : block의 경계
+
+## 3.5 Margin Part Two
+
+방향 설정 없이 margin 하나를 주면 사방에 전부 다 적용된다.
+두 개를 줄 경우 상하, 좌우 이다.
+네 개를 줄 경우 시계방향 순으로 적용된다. (상 우 하 좌)
+
+Collapsing margin 현상 (상하에서만 발생함)
+=> body안에 div의 위 아래 마진이 body의 마진과 만나면 둘 중 큰 값의 마진으로 body에 적용된다.
