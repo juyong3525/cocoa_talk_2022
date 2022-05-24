@@ -200,3 +200,15 @@ user agent stylesheet : 브라우저가 기본적으로 준 style 속성
 
 Collapsing margin 현상 (상하에서만 발생함)
 => body안에 div의 위 아래 마진이 body의 마진과 만나면 둘 중 큰 값의 마진으로 body에 적용된다.
+
+## 3.6 Padding and IDs
+
+- padding은 block의 경계(border)로부터 '안쪽'에 있는 공간이다.
+
+- 값의 개수에 따라 적용되는 방향은 margin과 동일하다.
+
+- 여러 div를 생성했을 때 'id'를 이용하여 div들을 구분할 수 있고, 각각 다른 속성을 적용시킬 수 있다.
+
+- CSS로 id:first인 div에 속성을 적용 시킬 땐, #first {}
+
+- CSS 코드의 id명은 HTML 코드에서 썼던 id명과 같아야 한다.
