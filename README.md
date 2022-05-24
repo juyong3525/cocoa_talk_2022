@@ -212,3 +212,13 @@ Collapsing margin 현상 (상하에서만 발생함)
 - CSS로 id:first인 div에 속성을 적용 시킬 땐, #first {}
 
 - CSS 코드의 id명은 HTML 코드에서 썼던 id명과 같아야 한다.
+
+## 3.7 Border
+
+- border는 보통 한 종류만 사용한다.
+
+- 적용 예시 → border: 2px solid black; 너비, 스타일, 색깔
+
+- '\*'는 '전체'를 뜻한다.
+
+- border은 inline과 block 모두에 적용된다.
