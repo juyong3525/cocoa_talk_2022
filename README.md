@@ -163,3 +163,31 @@ Block은 옆에 다른 요소가 올 수 없는 종류를 뜻하고,
 Inline은 옆에 다른 요소가 올 수 있는 종류이다.
 
 Inline은 대채적으로 (span, link, image)이렇게 3종류가 있고 그 외에는 거의다 block 으로 존재한다고 볼 수 있다.
+
+## 3.4 Margin Part One
+
+Block의 특징(margin, padding, border)
+
+block에서 inline으로 inline에서 block으로 바꾸는게 가능할까? → 가능하다
+
+이렇게 하는 걸 display 속성이라고 한다.
+
+기본적으로 span의 display 속성은 inline이다. 이걸 block으로 바꿔주면 span도 block이 된다.
+
+그렇다면 div를 inline으로 바꾸면 어떤 일이 일어날까? → div가 사라진다.
+
+이유는 어떤 요소가 inline이면 그 요소는 높이와 너비를 가질 수 없기 때문이다.
+
+높이와 너비가 없고 내용도 없기 때문에 사라져 보인다. 내용이 있으면 그 내용만큼의 크기를 가지고 보여지게 된다.
+
+inline은 높이와 너비가 없고, block은 높이와 너비가 있다.
+
+block의 엄청난 특징 3가지는 다음과 같다.
+
+브라우저는 요소들에게 원치 않아도 많은 style 속성을 준다.
+
+user agent stylesheet : 브라우저가 기본적으로 준 style 속성
+
+1. margin : block의 border의 바깥에 있는 공간
+2. padding : block의 border 안쪽에 있는 공간
+3. border : block의 경계
