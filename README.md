@@ -222,3 +222,19 @@ Collapsing margin 현상 (상하에서만 발생함)
 - '\*'는 '전체'를 뜻한다.
 
 - border은 inline과 block 모두에 적용된다.
+
+## 3.8 Classes
+
+- span은 inline이기 때문에 높이와 너비를 가질 수 없으며, 그래서 위, 아래에 margin을 가질 수 없다.
+
+- 하지만 padding은 사방에 가질 수 있다.
+
+- 이와 같은 상황에 margin을 위, 아래에 적용하고 싶다면, inline 요소를 block으로 바꿔줘야 한다.
+
+- 온점(.)은 class명이라는 뜻.
+
+- id⇒ #tomato는 id="tomato" class⇒ .tomato는 class="tomato"
+
+- id명과 다르게 class명은 유일할 필요가 없다. 여러 요소들이 같이 쓸 수 있다.
+
+- class="btn tomato"와 같이 class 속에는 btn과 tomato를 연이어 넣어 각각 다른 class 속성을 동시에 부여할 수도 있다.
