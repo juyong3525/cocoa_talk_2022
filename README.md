@@ -247,3 +247,12 @@ inline-block은 block이 inline 속성을 가지게 해줌
 block 사이에 공간이 제멋대로 생김. => 깔끔하지 못하다.
 inline-block은 반응형 디자인을 지원하지 않는다.
 즉, 모니터의 크기에 따라 표현이 달라진다.
+
+## 3.10 Flexbox Part One
+
+1. 자식에게 명시하지 않고 부모에게 명시한다.
+   ex) div의 부모를 display:flex로 만든다.
+2. main axis=> 주축은 (수평)이 기본, justify-content는 main axis를 따라 움직임
+3. cross axis=> 교차축은 (수직)이 기본, align-items는 cross axis를 따라 움직임
+4. body가 height 값을 갖고있지 않으면 이미 맨 위아래를 차지하고 중심에 있으니까 align-items를 설정하더라도 바뀌지 않음.
+   이 때 height를 px로 해도 작동하지만, vh를 사용하면 화면 크기에 따라 바뀐다. 아이폰 맥북 아이패드에 따라 다 달라지니까 유용하다.
