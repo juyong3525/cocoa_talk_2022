@@ -238,3 +238,12 @@ Collapsing margin 현상 (상하에서만 발생함)
 - id명과 다르게 class명은 유일할 필요가 없다. 여러 요소들이 같이 쓸 수 있다.
 
 - class="btn tomato"와 같이 class 속에는 btn과 tomato를 연이어 넣어 각각 다른 class 속성을 동시에 부여할 수도 있다.
+
+## 3.9 inline Block
+
+inline-block은 block이 inline 속성을 가지게 해줌
+즉, 옆에 둘 수 있고, width와 height를 가질 수 있다.
+하지만 문제점이 많다. 정해진 형식이 없음. 그렇기 때문에 잘 안 쓴다.
+block 사이에 공간이 제멋대로 생김. => 깔끔하지 못하다.
+inline-block은 반응형 디자인을 지원하지 않는다.
+즉, 모니터의 크기에 따라 표현이 달라진다.
