@@ -256,3 +256,14 @@ inline-block은 반응형 디자인을 지원하지 않는다.
 3. cross axis=> 교차축은 (수직)이 기본, align-items는 cross axis를 따라 움직임
 4. body가 height 값을 갖고있지 않으면 이미 맨 위아래를 차지하고 중심에 있으니까 align-items를 설정하더라도 바뀌지 않음.
    이 때 height를 px로 해도 작동하지만, vh를 사용하면 화면 크기에 따라 바뀐다. 아이폰 맥북 아이패드에 따라 다 달라지니까 유용하다.
+
+## 3.11 Flexbox Part Two
+
+- justify-content나 align-items의 default를 변경하기 위해선, 'flex-direction'을 수정하면 된다.
+- flex-direction에는 두 가지 속성, column과 row가 있다.
+- display를 flex로 했을 때 default는 row이다. 따라서 flex-direction: column;을 주면 주축과 교차축이 반전된다.
+- 원하는만큼 flex 부모-자식 엘리먼트를 만들어낼 수 있다.
+- flex-wrap: nowrap;을 통해 wrapping이 일어나지 않게 할 수 있다.
+- flexbox는 width값을 초기 사이즈로만 여기고, 모든 엘리먼트를 같은 줄에 있게 하기 위해 width를 바꾸기도 한다.
+- flex-direction: column-reverse; 밑에서 시작해서 위로 올라가게 한다.(마찬가지로 row-reverse도 있다.)
+- flex-wrap: wrap-reverse; 또한 있는데, 브라우저를 줄일 때, 엘리먼트가 겹쳐지는 위치가 역전된다.
