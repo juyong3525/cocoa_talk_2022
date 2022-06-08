@@ -281,3 +281,36 @@ positon fixed를 이용하면 가장 위에 위치하게 된다. (맨 앞)
 3. position : relative - 박스가 처음 위치한 곳을 기준으로 이동,
    top,bottom, left, right 속성을 주면 첫 위치를 기준으로 이동됨
 4. position : absolute - 가장 가까운 부모 엘리먼트에 position:relative를 추가한다면, 그 부모 기준으로 top,bottom,left,right이동하고/ 아닐시엔 body 기준으로 이동된다
+
+## 3.14 Pseudo Selectors Part One
+
+pseudo selector
+좀더 세부적으로 엘리먼트를 선택해 주는 것
+(기존 방법 : 태그, id (#), class (.))
+
+선택의 복잡한 과정을 pseudo selector로 가능함
+ex>
+div:first-child {
+background-color: tomato;
+}
+
+/_ pseudo selector _/
+div:last-child {
+background-color: teal;
+}
+id나 class를 따로 만드는것보다 이렇게 지정하는게 훨씬 좋은 방법이다.
+css에서만 선택을 하면 되니까! html코드를 고칠 필요가 없기 때문이다
+
+n번째 태그 수정하기 nth-child(n)
+span:nth-child(2) {
+background-color: teal;
+}
+span:nth-child(even) { //or odd ( 홀수 )
+background-color: teal;
+}
+
+even은 짝수! 짝수번째를 모두 바꿀 수있다.
+
+span:nth-child(5n + 1) {
+background-color: silver;
+}
